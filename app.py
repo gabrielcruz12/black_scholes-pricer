@@ -115,6 +115,8 @@ col1, col2 = st.columns(2)
 
 with col1:
 	st.pyplot(fig)
+	st.caption(f"Unrealized P&L today (T={T} years remaining), not payoff at expiration.")
 
 with col2:
 	st.pyplot(fig2)
+	st.caption(f"Unrealized P&L today (T={T} years remaining), not payoff at expiration.")
